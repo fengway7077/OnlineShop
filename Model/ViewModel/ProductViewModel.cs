@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Model.ViewModel
+{
+  public  class ProductViewModel
+    {
+        public long ID { get; set; }
+        public string Images { get; set; }
+        public string Name { get; set; }
+        public decimal? Price { get; set; }
+        public decimal? PromotionPrice { get; set; }
+        public string CateName { get; set; } //ten danh muc
+        public string CateMetaTitle { get; set; } //
+        public string MetaTitle { get; set; }
+        public DateTime? CreateDate { get; set; }
+    }
+}
